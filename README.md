@@ -1,2 +1,2 @@
 # docker-build
-Docker build for local environment setup
+Docker build for local environment setup at Taylor University
