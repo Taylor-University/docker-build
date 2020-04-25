@@ -1,7 +1,6 @@
 # docker-build
 Docker build for local environment setup at Taylor University. Please read through Section 1 before setting up your environment. We
 
-----
 ## Section 1
 
 Instructions are using the following tools:
@@ -12,7 +11,6 @@ For Microsoft VS Code, it is suggested to use the following extensions:
 - [Docker by Microsoft](https://marketplace.visualstudio.com/items?itemName=formulahendry.docker-extension-pack)
 - [Live Share by Microsoft](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack) *(not required)*
 
-----
 ## Section 2: Build dotCMS Environment
 *More detailed information, please see [DotCMS Documentation](https://dotcms.com/docs/latest/getting-started-with-dotcms-in-docker-containers) about multiple container builds*
 
@@ -30,5 +28,4 @@ docker-compose up
 docker ps
 ```
 
-----
 ## Section 3: Import TU the database to database container
