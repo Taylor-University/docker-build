@@ -1,4 +1,4 @@
-version: '3.5'
+version: '3.8'
 
 networks:
   db_net:
@@ -15,7 +15,7 @@ services:
     ports:
       - "8080:8080"
     environment:
-      "CMS_HEAP_SIZE": '1g'
+      "CMS_HEAP_SIZE": '2g'
       "CMS_JAVA_OPTS": '-XX:+PrintFlagsFinal'
       "PROVIDER_DB_DNSNAME": 'db'
     depends_on:
